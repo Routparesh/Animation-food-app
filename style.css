@@ -152,3 +152,25 @@ video {
 		transform: translateX(-100%);
 	}
 }
+
+#about-us {
+	height: 40vh;
+	width: 100%;
+	background-color: red;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 0 50px;
+}
+
+#about-us img {
+	height: 220px;
+	width: 220px;
+	border-radius: 25px;
+	object-fit: cover;
+}
+
+#about-us-in {
+	width: 85%;
+	text-align: center;
+}
