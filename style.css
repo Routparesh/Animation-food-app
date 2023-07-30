@@ -156,7 +156,9 @@ video {
 #about-us {
 	height: 40vh;
 	width: 100%;
-	background-color: red;
+	/* background-color: red; */
+	position: relative;
+	z-index: 10;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
@@ -164,13 +166,46 @@ video {
 }
 
 #about-us img {
-	height: 220px;
-	width: 220px;
+	height: 170px;
+	width: 170px;
 	border-radius: 25px;
 	object-fit: cover;
 }
 
 #about-us-in {
-	width: 85%;
+	width: 65%;
 	text-align: center;
+}
+
+#about-us-in h3 {
+	font-size: 54px;
+	font-weight: 800;
+	margin-bottom: 30px;
+}
+
+#about-us-in p {
+	font-size: 16px;
+	line-height: 26px;
+}
+
+#cards-container {
+	background-color: red;
+	height: 60vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 70px;
+}
+
+.card {
+	height: 80%;
+	width: 24%;
+	background-color: blue;
+	border-radius: 20px;
+	background-size: cover;
+	background-position: center;
+}
+
+#card1 {
+	background-image: url();
 }
